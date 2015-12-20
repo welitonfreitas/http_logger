@@ -67,6 +67,7 @@ class HttpLogger
         log_response_body(response.body)
         log("LOG WELITON", "==========response===========")
         log("Response ", response)
+        log("Response body", response.body)
         log("LOG WELITON", "==========response===========")
       end
     end
