@@ -65,6 +65,9 @@ class HttpLogger
         log_response_code(response)
         log_response_headers(response)
         log_response_body(response.body)
+        log("==========response===========")
+        log(response)
+        log("==========response===========")
       end
     end
   end
